@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+/* *{
+    border: red solid;
+} */
