@@ -6,6 +6,7 @@ import Cart from "../Cart/Cart";
 import WishList from "../Wishlist/WishList";
 import OrderSummary from "../OrderSummary/OrderSummary";
 import OrderPlace from "../OrderPlace/OrderPlace";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -151,6 +152,7 @@ const Home = () => {
       )}
       {/* order placed  */}
       {orderPlaced && <OrderPlace setOrderPlaced={setOrderPlaced} />}
+      <Footer />
     </div>
   );
 };
